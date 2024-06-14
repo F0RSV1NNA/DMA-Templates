@@ -25,9 +25,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="KmBoxNet\my_enc.cpp">
       <Filter>Dep%27s\Kmbox</Filter>
     </ClCompile>
@@ -81,6 +78,9 @@
     </ClCompile>
     <ClCompile Include="Imgui\imgui_tables.cpp">
       <Filter>Dep%27s\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OurProgram\main.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
