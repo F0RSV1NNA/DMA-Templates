@@ -1,52 +1,57 @@
 # DMA Template Project
+***You must build in release mode!***
 
-This is a simple and easy template for DMA Tools/Automation in C++ using the metick DMA library and KMbox API.
+This project provides a simple and easy template for DMA Tools/Automation\
+including the Metick DMA library for memory reading and the KMbox API for mouse movement aswell as ImGui for menu's and overlays.
 
-Please show some appreciation to metick and KMbox for their work on the DMA library and KMbox API.
+Please show some appreciation to those dev's here!
 
 - [Metick](https://github.com/Metick)
 - [Kvmaibox](https://github.com/kvmaibox)
+- [Imgui](https://github.com/kvmaibox)
 
 ## Kmbox Info
-there is a config.cfg file included with examples on connecting to your specific kmbox.
-if you dont change these the kmbox wont connect.
+
+Ensure you configure your `config.cfg` file with the correct settings for your specific KMbox.\
+Without proper configuration, the KMbox will not connect.
+  
+## ImGui Info
+  TBD...
 
 ## Prerequisites
-**YOU MUST BUILD IN RELEASE MODE!**
 
+**Build Requirements:**
 
-**Before Attempting Compile make sure you have the following DLLs and files in the Compiled Folder as well as the DMAlibrary folder:**
+**Before compiling, ensure you have the following DLLs and files in the compiled folder as well as the DMALibrary folder:**
 
-(Currently i am including them but feel free to replace with new ones/build you own)
+- `FTD3XX.dll`
+- `leechcore.dll`
+- `vmm.dll`
+- `symsrv.dll`
+- `dbghelp.dll`
+- `info.db`
 
-- FTD3XX.dll
-- leechcore.dll 
-- vmm.dll
-- symsrv.dll
-- dbghelp.dll
-- info.db
+Currently, these files are included, but feel free to replace them with new ones or build your own.
 
 **You can find these files at the following repositories:**
 
 - [FTD3XX.dll](https://ftdichip.com/drivers/d3xx-drivers/)
-- [leechcore](https://github.com/ufrisk/LeechCore/releases)
+- [Leechcore](https://github.com/ufrisk/LeechCore/releases)
 - [MemProcFS](https://github.com/ufrisk/MemProcFS/releases)
 
-  (as of writing this, the versions are Leechcore V2.18 and MemprocFS V5.9)
+*(As of writing this, the versions are Leechcore V2.18 and MemprocFS V5.9)*
 
-**The project requires the following libraries in the DMALibrary\libs\ folder:**
+**The project requires the following libraries in the `DMALibrary/libs/` folder:**
 
-- leechcore.lib
-- vmm.lib
+- `leechcore.lib`
+- `vmm.lib`
 
 **You can obtain these files from the following repositories:**
 
-- [leechcore](https://github.com/ufrisk/LeechCore)
+- [Leechcore](https://github.com/ufrisk/LeechCore)
 - [MemProcFS](https://github.com/ufrisk/MemProcFS/)
 
 - [Lib Files Compiled if you're lazy](https://github.com/ufrisk/MemProcFS/tree/master/includes/lib32)
-
-
 
 ## License
 
