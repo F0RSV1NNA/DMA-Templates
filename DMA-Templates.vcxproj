@@ -186,13 +186,22 @@
     <Library Include="DMALibrary\libs\vmm.lib" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
     <None Include="Compiled\config.cfg" />
+    <None Include="Compiled\dbghelp.dll" />
+    <None Include="Compiled\FTD3XX.dll" />
+    <None Include="Compiled\info.db" />
+    <None Include="Compiled\leechcore.dll" />
+    <None Include="Compiled\symsrv.dll" />
+    <None Include="Compiled\vmm.dll" />
     <None Include="DMALibrary\dbghelp.dll" />
     <None Include="DMALibrary\FTD3XX.dll" />
     <None Include="DMALibrary\leechcore.dll" />
     <None Include="DMALibrary\libs\DMALibrary.pdb" />
     <None Include="DMALibrary\symsrv.dll" />
     <None Include="DMALibrary\vmm.dll" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

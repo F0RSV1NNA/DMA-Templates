@@ -9,6 +9,7 @@ Please show some appreciation to metick and KMbox for their work on the DMA libr
 
 ## Kmbox Info
 there is a config.cfg file included with examples on connecting to your specific kmbox.
+if you dont change these the kmbox wont connect.
 
 ## Prerequisites
 **YOU MUST BUILD IN RELEASE MODE!**
