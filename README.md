@@ -19,6 +19,10 @@ Please show some appreciation to those dev's here!
 
 Ensure you configure your `config.cfg` file with the correct settings for your specific KMbox.\
 Without proper configuration, the KMbox will not connect.
+
+
+you can find more documentation inside the `kmboxnet.h` & `kmboxnet.cpp` files inside the "/KmBoxNet" folder\
+(i translated the comments from chinese to english)
   
 ## ImGui Info
   TBD...
