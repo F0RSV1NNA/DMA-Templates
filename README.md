@@ -2,7 +2,12 @@
 ***You must build in release mode!***
 
 This project provides a simple and easy template for DMA Tools/Automation\
-including the Metick DMA library for memory reading and the KMbox API for mouse movement aswell as ImGui for menu's and overlays.
+all the includes and nessecary files already provided with an example main.cpp
+
+
+Metick DMA library for memory reading\
+The KMbox API for mouse movement\
+ImGui for menu's and overlays.
 
 Please show some appreciation to those dev's here!
 
