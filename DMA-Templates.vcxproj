@@ -186,6 +186,8 @@
     <Library Include="DMALibrary\libs\vmm.lib" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
     <None Include="Compiled\config.cfg" />
     <None Include="DMALibrary\dbghelp.dll" />
     <None Include="DMALibrary\FTD3XX.dll" />
@@ -193,6 +195,7 @@
     <None Include="DMALibrary\libs\DMALibrary.pdb" />
     <None Include="DMALibrary\symsrv.dll" />
     <None Include="DMALibrary\vmm.dll" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

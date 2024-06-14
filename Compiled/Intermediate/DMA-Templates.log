@@ -1,0 +1,212 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  DMALibrary.cpp
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(124,11): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(491,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(500,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(395,35): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1458,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1468,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1475,27): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1484,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1493,36): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1509,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1519,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1528,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1536,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1543,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1552,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1563,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1572,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1580,29): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1589,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1598,24): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1607,29): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(2141,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  InputManager.cpp
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(124,11): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(491,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(500,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(395,35): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1458,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1468,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1475,27): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1484,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1493,36): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1509,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1519,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1528,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1536,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1543,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1552,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1563,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1572,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1580,29): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1589,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1598,24): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1607,29): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(2141,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\InputManager.cpp(49,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\InputManager.cpp(85,4): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+  Memory.cpp
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(124,11): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(491,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(500,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(395,35): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1458,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1468,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1475,27): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1484,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1493,36): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1509,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1519,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1528,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1536,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1543,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1552,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1563,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1572,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1580,29): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1589,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1598,24): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1607,29): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(2141,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(314,3): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'ULONG64'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(326,3): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'ULONG64'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(344,2): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 2 has type 'QWORD'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(356,3): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 2 has type 'DWORD'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(356,3): warning C4313: 'printf': '%p' in format string conflicts with argument 2 of type 'DWORD'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(382,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(418,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(492,118): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(567,3): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(567,3): warning C4313: 'printf': '%p' in format string conflicts with argument 1 of type 'DWORD'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(567,3): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 2 has type 'DWORD'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(567,3): warning C4313: 'printf': '%p' in format string conflicts with argument 2 of type 'DWORD'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(675,83): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(704,96): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(706,3): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(714,80): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(716,3): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(725,97): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(727,3): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(737,81): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(739,3): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(768,49): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(770,3): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uint64_t'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(776,80): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Memory.cpp(778,3): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uint64_t'
+  Registry.cpp
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(124,11): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(491,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(500,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(395,35): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1458,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1468,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1475,27): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1484,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1493,36): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1509,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1519,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1528,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1536,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1543,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1552,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1563,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1572,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1580,29): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1589,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1598,24): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1607,29): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(2141,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xutility(4672,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  Shellcode.cpp
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(124,11): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(491,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(500,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(395,35): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1458,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1468,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1475,27): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1484,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1493,36): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1509,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1519,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1528,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1536,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1543,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1552,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1563,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1572,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1580,29): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1589,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1598,24): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1607,29): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(2141,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Shellcode.cpp(30,3): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const std::string'
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\Memory\Shellcode.cpp(36,20): warning C4018: '<': signed/unsigned mismatch
+  pch.cpp
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(124,11): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(491,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(500,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(395,35): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1458,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1468,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1475,27): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1484,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1493,36): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1509,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1519,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1528,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1536,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1543,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1552,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1563,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1572,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1580,29): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1589,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1598,24): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1607,29): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(2141,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx10.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_dx12.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  kmboxNet.cpp
+C:\Users\Ryan\Desktop\DMA-Templates\KmBoxNet\HidTable.h(119,9): warning C4005: 'KEY_EXECUTE': macro redefinition
+C:\Users\Ryan\Desktop\DMA-Templates\KmBoxNet\kmboxNet.cpp(1339,22): warning C4244: '=': conversion from 'unsigned short' to 'unsigned char', possible loss of data
+  my_enc.cpp
+  main.cpp
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(124,11): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(491,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\leechcore.h(500,10): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(395,35): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1458,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1468,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1475,27): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1484,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1493,36): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1509,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1519,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1528,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1536,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1543,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1552,28): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1563,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1572,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1580,29): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1589,26): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1598,24): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(1607,29): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Ryan\Desktop\DMA-Templates\DMALibrary\libs\vmmdll.h(2141,25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1243 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DMA-Templates.vcxproj -> C:\Users\Ryan\Desktop\DMA-Templates\Compiled\DMA-Template.exe
