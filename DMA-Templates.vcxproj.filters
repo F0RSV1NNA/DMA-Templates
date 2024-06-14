@@ -187,14 +187,32 @@
     <None Include="Compiled\config.cfg">
       <Filter>Dep%27s\Kmbox</Filter>
     </None>
-    <None Include=".gitattributes" />
-    <None Include=".gitignore" />
-    <None Include="README.md" />
-    <None Include="Compiled\dbghelp.dll" />
-    <None Include="Compiled\FTD3XX.dll" />
-    <None Include="Compiled\info.db" />
-    <None Include="Compiled\leechcore.dll" />
-    <None Include="Compiled\symsrv.dll" />
-    <None Include="Compiled\vmm.dll" />
+    <None Include=".gitattributes">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include=".gitignore">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\dbghelp.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\FTD3XX.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\leechcore.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\symsrv.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\vmm.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\info.db">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Dep%27s</Filter>
+    </None>
   </ItemGroup>
 </Project>
