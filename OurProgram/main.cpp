@@ -1,47 +1,11 @@
 #include <kmboxNet.h>
 #include <Memory.h>
+#include "Menu.h"
+#include "Config.h"
+
 #include <iostream>
-#include <fstream>
-#include <string>
 #include <thread>
 #include <chrono>
-
-struct Config
-{
-    std::string kmboxIP;
-    int kmboxPort;
-    std::string kmboxUUID;
-    int screenWidth;
-    int screenHeight;
-};
-
-bool ReadConfig(Config& config)
-{
-    std::ifstream configFile("config.cfg");
-    if (!configFile.is_open())
-    {
-        std::cerr << "Failed to open config.cfg" << std::endl;
-        return false;
-    }
-
-    std::string line;
-    while (std::getline(configFile, line))
-    {
-        size_t pos = line.find('=');
-        if (pos == std::string::npos) continue;
-
-        std::string key = line.substr(0, pos);
-        std::string value = line.substr(pos + 1);
-
-        if (key == "KmboxIP") config.kmboxIP = value;
-        else if (key == "KmboxPort") config.kmboxPort = std::stoi(value);
-        else if (key == "KmboxUUID") config.kmboxUUID = value;
-        else if (key == "screenWidth") config.screenWidth = std::stoi(value);
-        else if (key == "screenHeight") config.screenHeight = std::stoi(value);
-    }
-
-    return true;
-}
 
 void InitKMbox(const Config& config)
 {
@@ -68,7 +32,7 @@ void MoveMouse(const Config& config)
     int deltaY = 0;
 
     std::cout << "Moving mouse 600 pixels to the right\n";
-    kmNet_mouse_move_auto(deltaX, deltaY, 2000); 
+    kmNet_mouse_move_auto(deltaX, deltaY, 2000);
 }
 
 void DMAExample()
@@ -84,7 +48,7 @@ void DMAExample()
     if (!mem.GetKeyboard()->InitKeyboard())
     {
         std::cerr << "Failed to initialize keyboard hotkeys through kernel." << std::endl;
-        exit(1);
+        std::this_thread::sleep_for(std::chrono::seconds(3));
     }
 
     uintptr_t base = mem.GetBaseDaddy("explorer.exe");
@@ -96,12 +60,6 @@ void DMAExample()
         std::cout << "Failed to read Value" << std::endl;
     std::cout << "Value: " << value << std::endl;
 
-    // Example keyboard usage.
-    std::cout << "Continuing once 'A' has been pressed." << std::endl;
-    while (!mem.GetKeyboard()->IsKeyDown(0x41))
-    {
-        std::this_thread::sleep_for(std::chrono::milliseconds(100));
-    }
 }
 
 int main()
@@ -111,7 +69,6 @@ int main()
     {
         return 1;
     }
-
     // Initialize KMbox
     InitKMbox(config);
 
@@ -123,6 +80,11 @@ int main()
     MoveMouse(config);
     std::cout << "KMbox example completed" << std::endl;
     std::cout << "Made By F0RSV1NNA" << std::endl;
-    std::this_thread::sleep_for(std::chrono::seconds(10));
+
+    // Menu/Overlay(fuser) Example
+    Render(config);
+
     return 0;
 }
+
+

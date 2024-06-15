@@ -144,16 +144,15 @@
     <ClCompile Include="Imgui\imgui.cpp" />
     <ClCompile Include="Imgui\imgui_demo.cpp" />
     <ClCompile Include="Imgui\imgui_draw.cpp" />
-    <ClCompile Include="Imgui\imgui_impl_dx10.cpp" />
     <ClCompile Include="Imgui\imgui_impl_dx11.cpp" />
-    <ClCompile Include="Imgui\imgui_impl_dx12.cpp" />
-    <ClCompile Include="Imgui\imgui_impl_dx9.cpp" />
     <ClCompile Include="Imgui\imgui_impl_win32.cpp" />
     <ClCompile Include="Imgui\imgui_tables.cpp" />
     <ClCompile Include="Imgui\imgui_widgets.cpp" />
     <ClCompile Include="KmBoxNet\kmboxNet.cpp" />
     <ClCompile Include="KmBoxNet\my_enc.cpp" />
+    <ClCompile Include="OurProgram\Config.cpp" />
     <ClCompile Include="OurProgram\main.cpp" />
+    <ClCompile Include="OurProgram\Menu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DMALibrary\framework.h" />
@@ -167,10 +166,7 @@
     <ClInclude Include="DMALibrary\pch.h" />
     <ClInclude Include="Imgui\imconfig.h" />
     <ClInclude Include="Imgui\imgui.h" />
-    <ClInclude Include="Imgui\imgui_impl_dx10.h" />
     <ClInclude Include="Imgui\imgui_impl_dx11.h" />
-    <ClInclude Include="Imgui\imgui_impl_dx12.h" />
-    <ClInclude Include="Imgui\imgui_impl_dx9.h" />
     <ClInclude Include="Imgui\imgui_impl_win32.h" />
     <ClInclude Include="Imgui\imgui_internal.h" />
     <ClInclude Include="Imgui\imstb_rectpack.h" />
@@ -179,6 +175,8 @@
     <ClInclude Include="KmBoxNet\HidTable.h" />
     <ClInclude Include="KmBoxNet\kmboxNet.h" />
     <ClInclude Include="KmBoxNet\my_enc.h" />
+    <ClInclude Include="OurProgram\Config.h" />
+    <ClInclude Include="OurProgram\Menu.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="DMALibrary\libs\DMALibrary.lib" />

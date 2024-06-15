@@ -23,6 +23,12 @@
     <Filter Include="Dep%27s\DMALibrary\Libs">
       <UniqueIdentifier>{b2b01f56-bfe0-45cb-8c84-81f280fe4661}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Overlay/Menu">
+      <UniqueIdentifier>{47a97466-8a91-40fe-b36d-1d9a5a7bf627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{40f5a182-5cd7-4bd0-8b8b-bc8abebf466b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="KmBoxNet\my_enc.cpp">
@@ -61,16 +67,7 @@
     <ClCompile Include="Imgui\imgui_draw.cpp">
       <Filter>Dep%27s\Imgui</Filter>
     </ClCompile>
-    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
-      <Filter>Dep%27s\Imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="Imgui\imgui_impl_dx10.cpp">
-      <Filter>Dep%27s\Imgui</Filter>
-    </ClCompile>
     <ClCompile Include="Imgui\imgui_impl_dx11.cpp">
-      <Filter>Dep%27s\Imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="Imgui\imgui_impl_dx12.cpp">
       <Filter>Dep%27s\Imgui</Filter>
     </ClCompile>
     <ClCompile Include="Imgui\imgui_impl_win32.cpp">
@@ -81,6 +78,12 @@
     </ClCompile>
     <ClCompile Include="OurProgram\main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OurProgram\Menu.cpp">
+      <Filter>Source Files\Overlay/Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="OurProgram\Config.cpp">
+      <Filter>Source Files\Config</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -96,16 +99,7 @@
     <ClInclude Include="Imgui\imgui.h">
       <Filter>Dep%27s\Imgui</Filter>
     </ClInclude>
-    <ClInclude Include="Imgui\imgui_impl_dx9.h">
-      <Filter>Dep%27s\Imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="Imgui\imgui_impl_dx10.h">
-      <Filter>Dep%27s\Imgui</Filter>
-    </ClInclude>
     <ClInclude Include="Imgui\imgui_impl_dx11.h">
-      <Filter>Dep%27s\Imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="Imgui\imgui_impl_dx12.h">
       <Filter>Dep%27s\Imgui</Filter>
     </ClInclude>
     <ClInclude Include="Imgui\imgui_impl_win32.h">
@@ -152,6 +146,12 @@
     </ClInclude>
     <ClInclude Include="DMALibrary\nt\structs.h">
       <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="OurProgram\Menu.h">
+      <Filter>Source Files\Overlay/Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="OurProgram\Config.h">
+      <Filter>Source Files\Config</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
