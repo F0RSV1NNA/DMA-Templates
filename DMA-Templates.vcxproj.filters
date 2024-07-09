@@ -217,5 +217,8 @@
     <None Include="README.md">
       <Filter>Dep%27s</Filter>
     </None>
+    <None Include="KmBox\kmbox_b_pro_en.docx">
+      <Filter>Dep%27s\Kmbox</Filter>
+    </None>
   </ItemGroup>
 </Project>

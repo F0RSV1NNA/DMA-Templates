@@ -200,6 +200,7 @@
     <None Include="DMALibrary\libs\DMALibrary.pdb" />
     <None Include="DMALibrary\symsrv.dll" />
     <None Include="DMALibrary\vmm.dll" />
+    <None Include="KmBox\kmbox_b_pro_en.docx" />
     <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

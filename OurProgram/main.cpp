@@ -1,4 +1,5 @@
 #include <kmboxNet.h>
+#include <KmboxB.h>
 #include <Memory.h>
 #include "Menu.h"
 #include "Config.h"
@@ -6,34 +7,65 @@
 #include <iostream>
 #include <thread>
 #include <chrono>
+_com comPort;
 
 void InitKMbox(const Config& config)
 {
-    std::cout << "Initializing KMbox with IP: " << config.kmboxIP
-        << ", Port: " << config.kmboxPort
-        << ", UUID: " << config.kmboxUUID << std::endl;
-
-    int initResult = kmNet_init(const_cast<char*>(config.kmboxIP.c_str()),
-        const_cast<char*>(std::to_string(config.kmboxPort).c_str()),
-        const_cast<char*>(config.kmboxUUID.c_str()));
-
-    if (initResult != success)
+    if (config.kmboxType == "Net")
     {
-        std::cerr << "Failed to initialize KMbox, error code: " << initResult << std::endl;
+        std::cout << "Initializing KMbox NET with IP: " << config.kmboxIP
+            << ", Port: " << config.kmboxPort
+            << ", UUID: " << config.kmboxUUID << std::endl;
+
+        int initResult = kmNet_init(const_cast<char*>(config.kmboxIP.c_str()),
+            const_cast<char*>(std::to_string(config.kmboxPort).c_str()),
+            const_cast<char*>(config.kmboxUUID.c_str()));
+
+        if (initResult != success)
+        {
+            std::cerr << "Failed to initialize KMbox NET, error code: " << initResult << std::endl;
+            exit(1);
+        }
+        std::cout << "KMbox NET initialized successfully\n";
+    }
+    else if (config.kmboxType == "BPro")
+    {
+        std::cout << "Initializing KMbox BPro on COM port " << config.KmboxComPort << std::endl;
+
+        if (comPort.open(config.KmboxComPort, 115200)) // Adjust baud rate as necessary
+        {
+            std::cout << "KMbox BPro initialized successfully." << std::endl;
+        }
+        else
+        {
+            std::cerr << "Failed to initialize KMbox BPro on COM port " << config.KmboxComPort << std::endl;
+            exit(1);
+        }
+    }
+    else
+    {
+        std::cerr << "Wrong KMbox type specified, please type exactly Net or BPro in your cfg." << config.kmboxType << std::endl;
         exit(1);
     }
 
-    std::cout << "KMbox initialized successfully\n";
+    
+    int deltaX = 600; // Move right
+    int deltaY = 0;   // No vertical move
+    if (config.kmboxType == "NET")
+    {
+        std::cout << "Moving mouse 600 pixels to the right (NET)\n";
+        kmNet_mouse_move_auto(deltaX, deltaY, 2000); // Adjust timing as necessary
+    }
+    else if (config.kmboxType == "BPro")
+    {
+        // Docx file included in the project files /Kmbox
+        std::cout << "Moving mouse 600 pixels to the right (BPro)\n";
+        char cmd[1024] = { 0 };
+        sprintf_s(cmd, "km.move(%d, %d, 10)\r\n", deltaX, deltaY);
+        comPort.write(cmd);
+    }
 }
 
-void MoveMouse(const Config& config)
-{
-    int deltaX = 600;
-    int deltaY = 0;
-
-    std::cout << "Moving mouse 600 pixels to the right\n";
-    kmNet_mouse_move_auto(deltaX, deltaY, 2000);
-}
 
 void DMAExample()
 {
@@ -77,7 +109,7 @@ int main()
     std::cout << "DMA example completed" << std::endl;
 
     // KMbox example
-    MoveMouse(config);
+
     std::cout << "KMbox example completed" << std::endl;
     std::cout << "Made By F0RSV1NNA" << std::endl;
 
