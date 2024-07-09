@@ -31,10 +31,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="KmBoxNet\my_enc.cpp">
+    <ClCompile Include="KmBox\my_enc.cpp">
       <Filter>Dep%27s\Kmbox</Filter>
     </ClCompile>
-    <ClCompile Include="KmBoxNet\kmboxNet.cpp">
+    <ClCompile Include="KmBox\kmboxNet.cpp">
       <Filter>Dep%27s\Kmbox</Filter>
     </ClCompile>
     <ClCompile Include="DMALibrary\DMALibrary.cpp">
@@ -87,13 +87,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="KmBoxNet\HidTable.h">
+    <ClInclude Include="KmBox\HidTable.h">
       <Filter>Dep%27s\Kmbox</Filter>
     </ClInclude>
-    <ClInclude Include="KmBoxNet\kmboxNet.h">
+    <ClInclude Include="KmBox\kmboxNet.h">
       <Filter>Dep%27s\Kmbox</Filter>
     </ClInclude>
-    <ClInclude Include="KmBoxNet\my_enc.h">
+    <ClInclude Include="KmBox\my_enc.h">
       <Filter>Dep%27s\Kmbox</Filter>
     </ClInclude>
     <ClInclude Include="Imgui\imgui.h">
@@ -152,6 +152,9 @@
     </ClInclude>
     <ClInclude Include="OurProgram\Config.h">
       <Filter>Source Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="KmBox\KmboxB.h">
+      <Filter>Dep%27s\Kmbox</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
